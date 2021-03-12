@@ -1,0 +1,79 @@
+.container {
+  max-width: 400px;
+  min-width: 180px;
+  width: 220px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: white;
+  margin: 4px;
+  border-color: rgb(223, 223, 223);
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 4px 4px 15px rgb(219, 219, 219);;
+}
+.nameText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #40415E;
+  font-weight: 550;
+}
+.numberText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #40415E;
+  font-weight: 300;
+}
+.typesTabs {
+  display: flex;
+  flex-direction: row;
+}
+.typeGrass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: green;
+  border-radius: 10px;
+  width: 50px;
+  height: 22px;
+  padding-top: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+  margin: 4px;
+}
+.typePoison {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: purple;
+  border-radius: 10px;
+  width: 50px;
+  height: 22px;
+  padding-top: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+  margin: 4px;
+}
+.typeFire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: green;
+  border-radius: 10px;
+  width: 50px;
+  height: 22px;
+  padding-top: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+  margin: 4px;
+
+}

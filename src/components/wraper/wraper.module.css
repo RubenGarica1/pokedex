@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.User {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background: #566CD6
+}
+.UserCont {
+  position: absolute;
+}
+.UserData {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  left: 20%;
+  top: 3%;
+}
+.logout {
+  position: absolute;
+  left: 6%;
+  top: 92%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+.button {
+  display: flex;
+  align-items: center;
+  background: rgb(120, 142, 255);
+  width: 220px;
+  height: 50px;
+  border-radius: 4px;
+}
+.iconLogout {
+  padding-left: 10px;
+}
+.titleLogout {
+  padding-left: 35px;
+}
+.userImage {
+  padding-top: 30px;
+}
+.nameUser {
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+  color: white;
+}
+.levelUser {
+  padding-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 590;
+  color: rgb(228, 228, 228);
+}
+.textUser {
+  padding-top: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 590;
+  color: rgb(206, 206, 206);
+}
+.children {
+  position: absolute;
+  left: 250px;
+}

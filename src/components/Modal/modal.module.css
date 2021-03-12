@@ -1,0 +1,64 @@
+.modal {
+  display: block;
+  height: 60%;
+  left: 28%;
+  width: 50%;
+  top: 120px;
+  position: fixed;
+  z-index: 9999;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: all 0.15s;
+  border-radius: 25px;
+}
+.modalClose {
+  display: none;
+  height: 50%;
+  width: 50%;
+  position: fixed;
+  z-index: 9999;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: all 0.15s;
+}
+.bg {
+  z-index: 9998;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E4E6EB;
+  height: 39px;
+  width: 39px;
+  border-radius: 45px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.titleProduct {
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.icon:focus {
+  background: #DADBE1;
+}
+.icon:active {
+  background: #ffffff;
+}

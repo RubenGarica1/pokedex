@@ -1,0 +1,140 @@
+.colum {
+  display: flex;
+  flex-direction: row;
+}
+.imageCol {
+  width: 250px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.contentImage{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-content: center;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  border-color: rgb(223, 223, 223);
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 4px 4px 15px rgb(219, 219, 219);;
+}
+.contentSubImage{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.contentSubShiny{
+  display: flex;
+}
+.imageMin {
+  padding: 0px 5px 0px 5px;
+}
+.typesTabs {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.typeGrass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: green;
+  border-radius: 10px;
+  width: 50px;
+  height: 22px;
+  padding-top: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+  margin: 4px;
+}
+.typePoison {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: purple;
+  border-radius: 10px;
+  width: 50px;
+  height: 22px;
+  padding-top: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+  margin: 4px;
+}
+.typeFire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(44, 59, 44);
+  border-radius: 10px;
+  width: 50px;
+  height: 22px;
+  padding-top: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+  margin: 4px;
+
+}
+.typeNormal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(192, 135, 89);
+  border-radius: 10px;
+  width: 50px;
+  height: 22px;
+  padding-top: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+  margin: 4px;
+}
+.name{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 550;
+  color: #40415E,
+}
+.definit {
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+  color: #40415E,
+}
+.definitRes {
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  color: #40415E,
+}
+.infBox {
+  padding-top: 100px;
+}
+.inf {
+  padding: 30px;
+  display: flex;
+  flex-direction:column;
+  height: 550px;
+  width: 500px;
+  border-radius: 10px;
+  border-color: rgb(223, 223, 223);
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 4px 4px 15px rgb(219, 219, 219);;
+}
+.line {
+  width: auto;
+  background: rgb(206, 206, 206);
+  height:1px;
+}
